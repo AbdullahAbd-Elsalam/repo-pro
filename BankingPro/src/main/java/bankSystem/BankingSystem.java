@@ -11,12 +11,13 @@ public class BankingSystem {
         // Use a Scanner for user input
         Scanner scanner = new Scanner(System.in);
         String option="";
+        // for test number of operation that user you want to do
         boolean flag=true;
         try {
             do {
                 // Main menu
 
-                    System.out.println("\n=== Banking System Menu ===");
+                    System.out.println("\n= Banking System Menu ");
                     System.out.println("1. Deposit");
                     System.out.println("2. Withdraw");
                     System.out.println("3. Check Balance");
